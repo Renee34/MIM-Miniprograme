@@ -1,0 +1,148 @@
+<!--pages/app/index.wxml-->
+<view id="app">
+
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="数据录入">
+  
+  
+  <van-nav-bar
+  title="我的试验记录"
+  left-text="返回"
+  right-text="新建"
+  left-arrow
+  bind:click-left="onClickLeft"
+  bind:click-right="onClickRight"
+/>
+<van-collapse value="{{ activeNames }}" bind:change="onChange">
+  <van-collapse-item title="试验记录1" name="1">
+    实验名称:预申报分工
+关键词:Block chain
+创建者:XXX
+所在团队:2023区块链重点开发团队
+所在项目:预申报
+所在实验记录本:预申报分工记录
+创建时间:2022年11月23日 8:00
+修改时间:2022年11月23日 8:00
+  </van-collapse-item>
+  <van-collapse-item title="试验记录2" name="2">
+   实验名称:预申报分工
+关键词:Block chain
+创建者:XXX
+所在团队:2023区块链重点开发团队
+所在项目:预申报
+所在实验记录本:预申报分工记录
+创建时间:2022年11月23日 8:00
+修改时间:2022年11月23日 8:00
+  </van-collapse-item>
+  <van-collapse-item title="试验记录3" name="2">
+   实验名称:预申报分工
+关键词:Block chain
+创建者:XXX
+所在团队:2023区块链重点开发团队
+所在项目:预申报
+所在实验记录本:预申报分工记录
+创建时间:2022年11月23日 8:00
+修改时间:2022年11月23日 8:00
+  </van-collapse-item>
+  <van-collapse-item title="试验记录4" name="2">
+   实验名称:预申报分工
+关键词:Block chain
+创建者:XXX
+所在团队:2023区块链重点开发团队
+所在项目:预申报
+所在实验记录本:预申报分工记录
+创建时间:2022年11月23日 8:00
+修改时间:2022年11月23日 8:00
+  </van-collapse-item>
+
+</van-collapse>
+
+</van-tab>
+  <van-tab title="数据查询">
+  
+  <van-image width="200" height="200" Position="center" src="/assets/image/bnf.png" />
+  <van-search value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"/></van-tab>
+  <van-tab title="数据收藏"><van-nav-bar
+  title="实验记录收藏夹"
+  left-text="返回"
+  right-text="新建"
+  left-arrow
+  bind:click-left="onClickLeft"
+  bind:click-right="onClickRight"
+/>
+
+<van-cell-group>
+  
+  <van-cell title="区块链" value="记录数量：3" label="2023年2月11日" border="{{ false }}" />
+</van-cell-group>
+
+<van-row>
+  <van-col offset="14" span="14"><van-button type="info" size="mini">进入</van-button>
+<van-button color="#cccccc" size="mini">按钮</van-button>
+<van-button color="#cc3333"  size="mini">按钮</van-button></van-col>
+</van-row>
+<van-cell-group>
+  
+  <van-cell title="区块链" value="记录数量：3" label="2023年2月11日" border="{{ false }}" />
+</van-cell-group>
+
+<van-row>
+  <van-col offset="14" span="14"><van-button type="info" size="mini">进入</van-button>
+<van-button color="#cccccc" size="mini">按钮</van-button>
+<van-button color="#cc3333"  size="mini">按钮</van-button></van-col>
+</van-row>
+<van-cell-group>
+  
+  <van-cell title="区块链" value="记录数量：3" label="2023年2月11日" border="{{ false }}" />
+</van-cell-group>
+
+<van-row>
+  <van-col offset="14" span="14"><van-button type="info" size="mini">进入</van-button>
+<van-button color="#cccccc" size="mini">按钮</van-button>
+<van-button color="#cc3333"  size="mini">按钮</van-button></van-col>
+</van-row>
+</van-tab>
+  <van-tab title="我的模板"><van-nav-bar
+  title="实验记录收藏夹"
+  left-text="返回"
+  right-text="新建"
+  left-arrow
+  bind:click-left="onClickLeft"
+  bind:click-right="onClickRight"
+/><van-cell-group>
+  
+  <van-cell title="区块链" value="记录数量：3" label="2023年2月11日" border="{{ false }}" />
+</van-cell-group>
+
+<van-row>
+  <van-col offset="14" span="14"><van-button type="info" size="mini">进入</van-button>
+<van-button color="#cccccc" size="mini">按钮</van-button>
+<van-button color="#cc3333"  size="mini">按钮</van-button></van-col>
+</van-row>
+<van-cell-group>
+  
+  <van-cell title="区块链" value="记录数量：3" label="2023年2月11日" border="{{ false }}" />
+</van-cell-group>
+
+<van-row>
+  <van-col offset="14" span="14"><van-button type="info" size="mini">进入</van-button>
+<van-button color="#cccccc" size="mini">按钮</van-button>
+<van-button color="#cc3333"  size="mini">按钮</van-button></van-col>
+</van-row>
+<van-cell-group>
+  
+  <van-cell title="区块链" value="记录数量：3" label="2023年2月11日" border="{{ false }}" />
+</van-cell-group>
+
+<van-row>
+  <van-col offset="14" span="14"><van-button type="info" size="mini">进入</van-button>
+<van-button color="#cccccc" size="mini">按钮</van-button>
+<van-button color="#cc3333"  size="mini">按钮</van-button></van-col>
+</van-row></van-tab>
+</van-tabs>
+
+</view>

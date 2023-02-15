@@ -1,4 +1,4 @@
-// app.js
+// app.js小程序全局逻辑层
 App({
   onLaunch() {
     // 展示本地存储能力

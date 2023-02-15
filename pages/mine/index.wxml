@@ -1,0 +1,56 @@
+<!--pages/mine/index.wxml-->
+<view id="mine">
+ <view class="header">
+  <van-notice-bar color="#ffffff" background="rgba(0,0,0,0.2)"
+  left-icon="volume-o" scrollable text="欢迎使用MIM医疗科研平台及信息管理系统。"/>
+ <view>
+ <image class="image" src="/assets/image/head.jpg"/>
+ <view class="name">登录 / 注册</view>
+ </view>
+
+ <view class= "nav">
+    <view class= "nav-item">
+      <view>0</view>
+      <view class="nav-item-title">团队数量</view>
+    </view>
+    <view class="nav-item">
+      <view>0</view>
+      <view class="nav-item-title">项目数量</view>
+    </view>
+    <view class="nav-item">
+      <view>0</view>
+      <view class="nav-item-title">发表论文数量</view>
+      
+    </view>
+ </view>
+ </view>
+ <view class="group">
+ <van-cell-group >
+  <van-cell icon="user-o" title="基本信息" is-link />
+ </van-cell-group>
+ </view>
+<view class="group">
+ <van-cell-group >
+  <van-cell icon="comment-o" title="个人简介" is-link />
+ </van-cell-group>
+ </view>
+
+ <view class="group">
+ <van-cell-group >
+  <van-cell icon="chat-o" title="咨询交流" is-link />
+ </van-cell-group>
+ </view>
+ <view class="group">
+ <van-cell-group >
+  <van-cell icon="guide-o" title="关于我们" is-link />
+ </van-cell-group>
+ </view>
+</view>
+ 
+
+
+
+
+
+
+

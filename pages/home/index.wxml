@@ -1,0 +1,85 @@
+<!--pages/hpme/index.wxml-->
+
+<view id="home"> 
+ 
+ <view class="load"> 
+ <view class="login" catchtap="tologs"> 
+ <div> 
+   <image src="/assets/image/user.png" ></image> 
+   <text>请登录</text> 
+ </div> 
+
+ </view> 
+ </view> 
+  
+ <van-search 
+   value="{{ value }}" 
+   placeholder="请输入搜索关键词" 
+   show-action 
+   bind:search="onSearch" 
+   bind:cancel="onCancel" 
+ /> 
+ <swiper class="banners" indicator-dots     indicator-color='ivory' indicator-active-color='#3366cc'> 
+  <swiper-item>      
+    <image src="/assets/image/back.png"></image> 
+  </swiper-item> 
+  <swiper-item> 
+    <image src="/assets/image/abc.png"></image> 
+  </swiper-item> 
+  <swiper-item> 
+    <image src="/assets/image/efd.png"></image> 
+  </swiper-item> 
+ </swiper> 
+  
+ <text class="subtitle">课题与经费</text> 
+ <view class="navContainer"> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close"></text> 
+     <text>课题经费概览</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-file"></text> 
+     <text>经费明细</text> 
+   </view> 
+  </view> 
+  
+ <text class="subtitle">实验记录本</text> 
+ <view class="navContainer"> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close" catchtap="todata"></text> 
+     <text>数据录入</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-file"></text> 
+     <text>数据查询</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close"></text> 
+     <text>数据收藏夹</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-file"></text> 
+     <text>我的模板</text> 
+   </view> 
+ </view> 
+  
+ <text class="subtitle">团队与成果</text> 
+ <view class="navContainer"> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close"></text> 
+     <text>我的团队</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-file"></text> 
+     <text>我的成果</text> 
+   </view> 
+ </view> 
+   
+ <text class="subtitle">试剂耗材设备</text> 
+ <view class="navContainer"> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close"></text> 
+     <text>试剂耗材设备</text> 
+   </view> 
+ </view> 
+ </view>

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view id="home">
+  <view class="left">
+  左边
+  </view>
+
+  <view class="right">
+  右边
+  </view>
+</view>
+ 

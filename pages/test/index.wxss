@@ -1,0 +1,14 @@
+/**index.wxss**/
+#home{
+  display: flex;
+}
+
+.left{
+  width: 187.5px;
+  background-color:rgba(10, 47, 116, 0.336)
+}
+
+.right{
+  width: 187.5px;
+  background-color: rgba(10, 47, 116, 0.336)
+}

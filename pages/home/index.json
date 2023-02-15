@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "MIM 医疗信息管理系统",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#3366CC",
+  "usingComponents": { 
+    "van-search": "@vant/weapp/search/index" 
+  }, 
+  "tabBar": {
+   "color":"#333",
+   "selectedColor":"#3366CC",
+   "backgroundColor":"#fff",
+   "list":[]
+  }
+}

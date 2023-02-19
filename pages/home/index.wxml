@@ -11,14 +11,28 @@
 
  </view> 
  </view> 
-  
- <van-search 
+<view class="searchgroup">
+ <van-search
+  use-action-slot="true" 
+  background="#fafafa" 
+  shape="round"
+  field-class="van-search"
+  focus
+  value="{{ inputValue }}"
+  placeholder="请输入关键字"
+  bind:change="changeValue"
    value="{{ value }}" 
    placeholder="请输入搜索关键词" 
-   show-action 
+   shape = "round"
+   show-action
    bind:search="onSearch" 
    bind:cancel="onCancel" 
- /> 
+ >
+ <view class="search-btn" slot="action" bind:tap="onClick">搜索</view>
+
+ </van-search> 
+</view>
+
  <swiper class="banners" indicator-dots     indicator-color='ivory' indicator-active-color='#3366cc'> 
   <swiper-item>      
     <image src="/assets/image/back.png"></image> 
@@ -44,21 +58,21 @@
   </view> 
   
  <text class="subtitle">实验记录本</text> 
- <view class="navContainer"> 
+ <view class="navContainer" catchtap="todata"> 
    <view class="navItem"> 
      <text class="iconfont icon-folder-close" catchtap="todata"></text> 
      <text>数据录入</text> 
    </view> 
    <view class="navItem"> 
-     <text class="iconfont icon-file"></text> 
+     <text class="iconfont icon-file" catchtap="todata"></text> 
      <text>数据查询</text> 
    </view> 
    <view class="navItem"> 
-     <text class="iconfont icon-folder-close"></text> 
+     <text class="iconfont icon-folder-close" catchtap="todata"></text> 
      <text>数据收藏夹</text> 
    </view> 
    <view class="navItem"> 
-     <text class="iconfont icon-file"></text> 
+     <text class="iconfont icon-file" catchtap="todata"></text> 
      <text>我的模板</text> 
    </view> 
  </view> 
@@ -83,3 +97,24 @@
    </view> 
  </view> 
  </view>
+
+
+ <text class="subtitle">其他功能</text> 
+ <view class="navContainer" catchtap="todata"> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close" catchtap="todata"></text> 
+     <text>科研服务</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-file" catchtap="todata"></text> 
+     <text>科研需求</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-folder-close" catchtap="todata"></text> 
+     <text>成果评价</text> 
+   </view> 
+   <view class="navItem"> 
+     <text class="iconfont icon-file" catchtap="todata"></text> 
+     <text>图像查重</text> 
+   </view> 
+ </view> 

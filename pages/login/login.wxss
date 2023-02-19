@@ -86,4 +86,15 @@
 .register-section text{  
   color: #3366CC;  
   margin-left: 10rpx;  
-}  
+}
+.codeimage{
+  height: 80rpx;  
+  width: 200rpx;  
+  vertical-align: middle; 
+}
+
+.kanbuqing{
+  font-size: small;
+  color: #3366CC;  
+  margin-left: 10rpx;  
+}

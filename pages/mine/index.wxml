@@ -5,7 +5,7 @@
   left-icon="volume-o" scrollable text="欢迎使用MIM医疗科研平台及信息管理系统。"/>
  <view>
  <image class="image" src="/assets/image/head.jpg"/>
- <view class="name">登录 / 注册</view>
+ <view class="name" catchtap="tologs">登录 / 注册</view>
  </view>
 
  <view class= "nav">
@@ -26,7 +26,7 @@
  </view>
  <view class="group">
  <van-cell-group >
-  <van-cell icon="user-o" title="基本信息" is-link />
+  <van-cell bindtap="userInfo"icon="user-o" title="基本信息" is-link />
  </van-cell-group>
  </view>
 <view class="group">

@@ -16,7 +16,7 @@ Page({
 
   todata(){
     wx.navigateTo({
-      url: '/pages/app/index',
+      url: '/pages/shiji/shiji',
     })
-  },
+  }
 });

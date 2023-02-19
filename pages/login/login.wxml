@@ -8,17 +8,19 @@
     </view> 
     <view class="input-content"> 
       <view class="input-item"> 
-        <text class="tit">邮箱账号</text> 
-        <input  type="text" placeholder="请输入邮箱账号" data-test="abc" data-type="email" id="email" bindinput="handleInput"/> 
+        <text class="tit">邮箱地址</text> 
+        <input  type="text" placeholder="请输入邮箱地址" data-test="abc" data-type="email" id="email" bindinput="handleInput"/> 
       </view> 
       <view class="input-item"> 
         <text class="tit">密码</text> 
         <input type="password"  placeholder="请输入密码" data-test="abc" data-type="password" id="password" bindinput="handleInput"/> 
       </view> 
       <view class="input-item"> 
-        <text class="tit">验证码</text> 
-        <input type="password"  placeholder="请输入密码" data-test="abc" data-type="password" id="password" bindinput="handleInput"/> 
+        <text class="tit">图形验证码</text> 
+        <input type="code"  placeholder="请输入验证码" data-test="abc" data-type="code" id="code" bindinput="handleInput"/> 
       </view> 
+      <image class="codeimage " src="{{codeImg}}" catchtap="changcode"></image>
+      <text  class="kanbuqing" catchtap="changcode">看不清，换一张</text>
       <canvas canvas-id="canvas" bindtap='change' style="width:90px;height: 30px;"></canvas> 
     </view> 
     <button class="confirm-btn" bindtap="login">登录</button> 

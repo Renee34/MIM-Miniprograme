@@ -1,0 +1,14 @@
+<!--pages/ketijingfei/ketijingfei.wxml-->
+
+<van-cell title="我负责的项目（进行中）" icon="bars" />
+<van-empty description="暂无数据" />
+<van-divider />
+<van-cell title="我参与的项目（进行中）" icon="bars" />
+<van-empty description="暂无数据" />
+<van-divider />
+
+
+
+
+
+  

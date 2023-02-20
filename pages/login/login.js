@@ -83,7 +83,6 @@ Page({
           }
    },
    fail(res) {
-
    }
     })**/
     console.log('ssss', {'email': email,'password': password,'code': code})
@@ -94,12 +93,17 @@ Page({
         title: '登录成功'
       });
       const {tokenHead, token} = result.data;
-      token = tokenHead + token;
-      wx.setStorageSync('token', token);
-    } else{
-        wx.showToast({
-          title: 'sss',
-        })}
+      let total_token = tokenHead + token;
+      wx.setStorageSync('token', total_token);
+      wx.navigateBack({
+        delta: 1,
+      })
+    } 
+    else{
+    wx.showToast({
+      title: result.message,
+    })    
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

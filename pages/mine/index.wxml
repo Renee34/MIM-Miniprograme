@@ -4,8 +4,8 @@
   <van-notice-bar color="#ffffff" background="rgba(0,0,0,0.2)"
   left-icon="volume-o" scrollable text="欢迎使用MIM医疗科研平台及信息管理系统。"/>
  <view>
- <image class="image" src="/assets/image/head.jpg"/>
- <view class="name" catchtap="tologs">登录 / 注册</view>
+ <image class="image" src="{{photo_url}}"/>
+ <view class="name" catchtap="tologs">{{nick_name}}</view>
  </view>
 
  <view class= "nav">
@@ -47,7 +47,6 @@
  </view>
 </view>
  
-
 
 
 

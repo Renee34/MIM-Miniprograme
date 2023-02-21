@@ -1,0 +1,12 @@
+/* pages/xinjian/xinjian.wxss */
+.btn1{
+  margin: 20rpx 0 20rpx 20rpx;
+  float:right;
+}
+.btn2{
+  margin: 20rpx 0 20rpx 20rpx;
+  float:right;
+  border-color: #3366cc;
+  color:#3366cc;
+  background-color: #ffffff;
+}

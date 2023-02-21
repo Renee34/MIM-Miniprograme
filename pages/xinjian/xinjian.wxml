@@ -1,0 +1,23 @@
+<!--pages/xinjian/xinjian.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ value }}"
+    label="名称"
+    placeholder="请输入团队名称"
+    border="{{ false }}"
+    bind:change="onChange"
+  />
+</van-cell-group>
+<van-cell-group>
+  <van-field
+    value="{{ value }}"
+    label="团队描述"
+    placeholder="请描述你的团队"
+    border="{{ false }}"
+    bind:change="onChange"
+  />
+</van-cell-group>
+
+
+<button class='btn1' size="mini" >取消</button>
+<button class='btn2' size="mini" >提交</button>

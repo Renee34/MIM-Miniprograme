@@ -1,0 +1,86 @@
+<!--pages/tuandui/tuandui.wxml-->
+<view class="Tuandui">
+<van-cell title="我负责的团队" icon="bars" />
+
+<button class='tuandui' size="mini" bindtap="toxinjian" >新建<van-dialog id="van-dialog" /></button>
+</view>
+
+<van-empty description="暂无数据" />
+<van-divider />
+<van-cell title="我参与的团队" icon="bars" />
+
+<van-divider />
+<view class="canyu" >
+    
+    <view class="canyu1" >
+
+    <text>团队序号</text>
+    </view>
+    <view class="canyu1" >
+     <text>团队名称</text>
+     </view>
+     <view class="canyu1" >
+     <text>成员数量</text>
+     </view>
+     <view class="canyu1" >
+     <text>项目数量</text>
+     </view>
+     <view class="canyu1" >
+     <text>创建时间</text>
+     </view>
+     <view class="canyu1" >
+      <text>操作</text>
+      </view>
+      
+
+  </view>
+  <van-divider />
+  <view class="canyu" >
+    
+    <view class="canyu2" >
+
+    <text>1</text>
+    </view>
+    <view class="canyu2" >
+     <text>小程序</text>
+     </view>
+     <view class="canyu2" >
+     <text>2</text>
+     </view>
+     <view class="canyu2" >
+     <text>0</text>
+     </view>
+     <view class="canyu2" >
+     <text>2023-2-13 </text>
+     </view>
+     <view class="canyu3" bindtap="toxingqing" >
+      <text>查看详情</text>
+      </view>
+      
+
+  </view>
+  <view class="canyu" >
+    
+    <view class="canyu2" >
+
+    <text>2</text>
+    </view>
+    <view class="canyu2" >
+     <text>小程序</text>
+     </view>
+     <view class="canyu2" >
+     <text>2</text>
+     </view>
+     <view class="canyu2" >
+     <text>0</text>
+     </view>
+     <view class="canyu2" >
+     <text>2023-2-15 </text>
+     </view>
+     <view class="canyu3" >
+      <text>查看详情</text>
+      </view>
+      
+
+  </view>
+

@@ -1,0 +1,7 @@
+<!--pages/chengguo/chengguo.wxml-->
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="发表论文"><van-empty description="暂无数据" /></van-tab>
+  <van-tab title="获得奖项"><van-empty description="暂无数据" /></van-tab>
+  <van-tab title="授权专利"><van-empty description="暂无数据" /></van-tab>
+  
+</van-tabs>

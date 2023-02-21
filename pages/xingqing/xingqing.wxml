@@ -1,0 +1,110 @@
+<!--pages/xingqing/xingqing.wxml-->
+<van-cell title="团队简介" icon="bars" />
+
+<van-divider />
+<view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>团队名</text>
+    </view>
+    <view class="canyu2" >
+     <text>小程序</text>
+     </view>
+     <view class="canyu1" >
+     <text>负责人</text>
+     </view>
+     <view class="canyu2" >
+     <text>xxx</text>
+     </view>
+
+    </view>
+    <van-divider />
+    <view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>创建时间</text>
+    </view>
+    <view class="canyu2" >
+     <text>2023-2-13</text>
+     </view>
+     <view class="canyu1" >
+     <text>项目数量</text>
+     </view>
+     <view class="canyu2" >
+     <text>0</text>
+     </view>
+
+    </view>
+    <van-divider />
+    <view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>团队介绍</text>
+    </view>
+    </view>
+    <van-divider />
+    <view class="canyu" >
+    
+    <view class="canyu2" >
+    <text>小程序半月冲锋！</text>
+    </view>
+    </view>
+    <van-divider />
+
+    <van-cell title="当前团队成员" icon="bars" />
+
+<van-divider />
+
+<view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>姓名</text>
+    </view>
+    <view class="canyu1" >
+     <text>职位</text>
+     </view>
+     <view class="canyu1" >
+     <text>个人简介</text>
+     </view>
+     <view class="canyu1" >
+     <text>注册时间</text>
+     </view>
+     </view>
+     <van-divider />
+
+     <view class="canyu" >
+    
+    <view class="canyu2" >
+    <text>xxx</text>
+    </view>
+    <view class="canyu2" >
+     <text>主实验员</text>
+     </view>
+     <view class="canyu2" >
+     <text>  </text>
+     </view>
+     <view class="canyu2" >
+     <text>2023-2-13</text>
+     </view>
+     </view>
+     <van-divider />
+     <view class="canyu" >
+    
+    <view class="canyu2" >
+    <text>yangwanqiu</text>
+    </view>
+    <view class="canyu2" >
+     <text>实验员</text>
+     </view>
+     <view class="canyu2" >
+     <text>  </text>
+     </view>
+     <view class="canyu2" >
+     <text>2023-2-15</text>
+     </view>
+     </view>
+     <van-divider />
+
+
+
+

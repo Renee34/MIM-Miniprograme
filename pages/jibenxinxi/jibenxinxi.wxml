@@ -1,0 +1,76 @@
+<!--pages/jibenxinxi/jibenxinxi.wxml-->
+<van-cell title="基本信息" icon="bars" />
+
+<van-divider />
+<button class='btn1' size="mini" >替换头像</button>
+<button class='btn2' size="mini" >编辑信息</button>
+ <van-divider />
+<view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>用户名</text>
+    </view>
+    <view class="canyu2" >
+     <text>yangwanqiu</text>
+     </view>
+    <view class="canyu1" >
+     <text>姓名</text>
+     </view>
+     <view class="canyu2" >
+     <text>yangwanqiu</text>
+     </view>
+     <view class="canyu1" >
+     <text>性别</text>
+     </view>
+     <view class="canyu2" >
+     <text>女</text>
+     </view>
+
+    </view>
+    <van-divider />
+    <view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>移动电话</text>
+    </view>
+    <view class="canyu2" >
+     <text>3400575</text>
+     </view>
+    <view class="canyu1" >
+     <text>邮箱</text>
+     </view>
+     <view class="canyu2" >
+     <text>  </text>
+     </view>
+     <view class="canyu1" >
+     <text>生日</text>
+     </view>
+     <view class="canyu2" >
+     <text>  </text>
+     </view>
+
+    </view>
+    <van-divider />
+    <view class="canyu" >
+    
+    <view class="canyu1" >
+    <text>民族</text>
+    </view>
+    <view class="canyu2" >
+     <text>汉</text>
+     </view>
+    <view class="canyu1" >
+     <text>政治面貌</text>
+     </view>
+     <view class="canyu2" >
+     <text>群众</text>
+     </view>
+     <view class="canyu1" >
+     <text>工作单位</text>
+     </view>
+     <view class="canyu2" >
+     <text>  </text>
+     </view>
+
+    </view>
+    <van-divider />

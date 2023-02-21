@@ -1,0 +1,40 @@
+/* pages/geren/geren.wxss */
+.Tuandui{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  width:100%;
+  padding: 0 24rpx;
+  
+}
+.tuandui{
+  margin: 20rpx 0 20rpx 20rpx;
+  float:right;
+  border-color: #3366cc;
+  color:#3366cc;
+  background-color: #ffffff;
+  
+  
+  
+}
+.canyu{
+ width: 100%;
+  display: flex;
+  
+  bottom: 30rpx;
+
+}
+.canyu1{
+ flex: 1;
+  text-align: center;
+  font-size:25rpx;
+  
+
+}
+.canyu2{
+ flex: 1;
+  text-align: center;
+  font-size:25rpx;
+  color:#999999;
+}

@@ -1,0 +1,11 @@
+<!--pages/geren/geren.wxml-->
+<view class="Tuandui">
+<van-cell title="个人简介" icon="bars" />
+
+<button class='tuandui' size="mini" bindtap="toxinjian" >新建<van-dialog id="van-dialog" /></button>
+</view>
+<van-divider />
+<view class="canyu2" >
+    <text>这个人很懒，什么都没留下！</text>
+    </view>
+    <van-divider />

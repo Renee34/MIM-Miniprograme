@@ -1,0 +1,49 @@
+/* pages/xiangmuguanli/xiangmuguanli.wxss */
+.uploader{
+  text-align: center;
+  margin-top: 10rpx;
+}
+.image{
+  width:  100%;
+  height: 500rpx;
+  position:relative;
+}
+.banners{
+  width:  100%;
+  height: 500rpx;
+}
+
+.banners image{
+  width:  100%;
+  height: 500rpx;
+}
+.navContainer {
+ display: flex;
+
+}
+.navItem{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:25%;
+}
+.navItem .iconfont{
+  width:90rpx;
+  height:90rpx;
+  border-radius:50%;
+  text-align:center;
+  line-height:100rpx;
+  background:#3366cc;
+  font-size:45rpx;
+  color:#fff;
+  margin:25rpx 0;
+
+}
+.navItem text{
+  font-size:23rpx;
+}
+
+.subtitle{
+font-size: 26rpx;
+height:60rpx;
+}
